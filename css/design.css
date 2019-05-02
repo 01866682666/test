@@ -1,0 +1,303 @@
+body{
+	margin: 0;padding: 0;
+	font-family: sans-serif;
+}
+
+
+.navbar-nav{
+			margin-left: 38px;
+
+@mediaquery(max-width: 500px;)
+	
+	.navbar-nav{margin-left: 0px;
+				margin-top: 4px;}
+
+}
+.baner{
+	position: relative;
+	background: linear-gradient(#00000075,#00000078),
+				linear-gradient(#00000080,#00000075),
+	url(../image/homepage.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.navbar{
+	position: absolute;
+	z-index: 1;}
+
+
+.content{
+	margin-top: 200px;
+
+}
+
+.navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    background: transparent;
+    color: #443939;
+}
+
+
+
+.dropdown-item{
+	color: white;
+	background: transparent;
+}
+
+
+
+
+
+ .hh {
+	padding: 5px 5px 5px 20px;
+	background: #00000080;
+	color: white;
+	font-size: 40px;
+	letter-spacing: 4px;
+
+
+}	
+.p {
+	line-height: 15px;
+	font-size: 12px;
+	padding-bottom: 80px;
+	padding-top: 20px;
+	color: white;
+
+}
+
+.btn-custom {
+	background: transparent;
+	color: white;
+	font-weight: 300;
+	padding: 10px 20px;
+	cursor: pointer;
+	border:1px solid white;
+	outline: none;
+	margin-bottom: 100px;
+	margin-top: 60px;
+
+}
+
+.form-inline .form-control {
+		background: transparent;
+		width:58%;
+}
+
+
+.social-icon{
+		margin-bottom: 20px;
+		margin-left: 0px;
+}
+
+
+.fab.fa-facebook-f{
+
+				    padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size: 20px;
+				    color: #fffbfbd9;
+				    background: #1616d2c2;
+				    box-shadow: 0px 2px 7px 5px;
+				    transition: 0.6s;
+
+}
+
+.fab.fa-facebook-f:hover{transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+
+
+}
+
+
+.fab.fa-whatsapp{
+
+					  padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size:20px;
+				    color: white;
+				    background:green;
+					box-shadow: 0px 2px 7px 5px;	
+					transition: 0.6s;		
+
+}
+
+.fab.fa-whatsapp:hover{transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+
+}
+
+
+.fab.fa-twitter{	  padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size: 20px;
+				    color: #fffbfbd9;
+				    background:#1a99ce;
+					box-shadow: 0px 2px 7px 5px;
+					transition: 0.6s;				
+
+}
+
+.fab.fa-twitter:hover{transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+
+}
+
+
+.fab.fa-linkedin-in{
+
+					  padding:  10px 15px;
+				    border: none;
+				    border-radius: 20px;
+				    outline: none;
+				    font-size: 20px;
+				    color: #fffbfbd9;
+				    background: #1616d2c2;
+					box-shadow: 0px 2px 7px 5px;
+					transition: 0.6s;
+								
+
+}
+
+.fab.fa-linkedin-in:hover{
+							transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+}
+
+
+
+.fab.fa-google-plus-g{
+
+						  padding: 10px 11px;
+				    border: none;
+				    border-radius: 23px;
+				    outline: none;
+				    font-size:20px;
+				    color: #fffbfbd9;
+				    background:#610a0ae8;
+				   	box-shadow: 0px 2px 7px 5px;
+					transition: 0.6s;			
+
+}
+
+
+
+
+.fab.fa-google-plus-g:hover{
+							transform: rotate(360deg);
+							cursor: pointer;
+							box-shadow: none;
+}
+
+
+/*.....services.....*/
+
+.services{
+		padding:80px 0px;
+		background:#8080802b;
+		
+}
+
+.posit{
+	
+}
+
+.discription{
+
+}
+
+.discription h2{font-size: 21px;
+    font-weight: bold;
+    padding-bottom: 20px;
+
+}
+.discription p{font-size: 15px;
+    line-height: 17px;
+    color: #242121a8;
+
+}
+
+.pictures{
+		
+}
+
+.rec{
+	width: 112%;
+    /* height: auto; */
+    /* margin-left: -92px; */
+    display: block;
+    /* margin-top: 78px; */
+    top: 5%;
+    position: absolute;
+    left: -24%;
+}
+
+
+.car{
+	    width: 324px;
+    position: absolute;
+    top: 17%;
+    left: 16%;
+    z-index: 1;
+
+}
+
+
+/*....service-type.....*/
+
+.service-type{
+	padding-top: 80px;
+	padding-bottom: 10px;
+	background:#00000094;
+	color: white;
+}
+
+.cars{
+	width: 500px;
+	height: 150px;
+}
+
+
+.h-two{    padding-top: 23px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: #f6f6f6;
+    font-weight: bold;
+
+}
+
+
+.per{    font-size: 11px;
+    padding-right: 8px;
+    color: #ffffffc7;
+
+}
+
+
+
+.foter{
+	background:#800000e0;
+	color: white;
+
+}
+
+.foot{
+	vertical-align: middle;
+	font-weight: bold;
+	padding: 10px 0px;
+
+
+}
